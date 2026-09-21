@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#simplyswords:implicit/dagger",
+      "required": false
+    },
+    {
+      "id": "simplyswords:emberlash",
+      "required": false
+    },
+    {
+      "id": "simplyswords:soulstealer",
+      "required": false
+    }
+  ]
+}

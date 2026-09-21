@@ -1,0 +1,304 @@
+To honour the JVM settings for this build a single-use Daemon process will be forked. For more on this, please refer to https://docs.gradle.org/9.4.1/userguide/gradle_daemon.html#sec:disabling_the_daemon in the Gradle documentation.
+Daemon will be stopped at the end of the build 
+> Task :createMinecraftArtifacts UP-TO-DATE
+> Task :compileJava UP-TO-DATE
+> Task :processResources
+> Task :classes
+> Task :compileGameTestJava
+> Task :processGameTestResources
+> Task :gameTestClasses
+
+> Task :downloadAssets
+Loaded 145 artifacts from C:\Users\dalmy\Documents\Codex\2026-09-19\github-plugin-github-openai-curated-remote\outputs\EYRAX-Apothic-Arsenal\build\tmp\downloadAssets\nfrt_artifact_manifest.properties
+Downloading asset index 17
+Using Minecraft asset root: C:\Users\dalmy\Documents\Codex\2026-09-19\github-plugin-github-openai-curated-remote\outputs\EYRAX-Apothic-Arsenal\work\gradle-home\caches\neoformruntime\assets
+  DL    https://piston-meta.mojang.com/v1/packages/76d7a97b9e0778fda3b14e474f012450ca0de1bb/17.json
+100/3888 downloads
+200/3888 downloads
+300/3888 downloads
+400/3888 downloads
+500/3888 downloads
+600/3888 downloads
+700/3888 downloads
+800/3888 downloads
+900/3888 downloads
+1000/3888 downloads
+1100/3888 downloads
+1200/3888 downloads
+1300/3888 downloads
+1400/3888 downloads
+1500/3888 downloads
+1600/3888 downloads
+1700/3888 downloads
+1800/3888 downloads
+1900/3888 downloads
+2000/3888 downloads
+2100/3888 downloads
+2200/3888 downloads
+2300/3888 downloads
+2400/3888 downloads
+2500/3888 downloads
+2600/3888 downloads
+2700/3888 downloads
+2800/3888 downloads
+2900/3888 downloads
+3000/3888 downloads
+3100/3888 downloads
+3200/3888 downloads
+3300/3888 downloads
+3400/3888 downloads
+3500/3888 downloads
+3600/3888 downloads
+3700/3888 downloads
+3800/3888 downloads
+Downloaded 3888 files with a total size of 786 MiB
+
+> Task :writeGameTestServerLegacyClasspath
+> Task :prepareGameTestServerRun
+
+> Task :runGameTestServer
+WARN StatusConsoleListener Advanced terminal features are not available in this environment
+[13:59:09] [main/INFO] [cp.mo.mo.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserverdev, --gameDir, ., --fml.fmlVersion, 4.0.43, --fml.mcVersion, 1.21.1, --fml.neoForgeVersion, 21.1.248, --fml.neoFormVersion, 20240808.144430]
+[13:59:09] [main/INFO] [cp.mo.mo.Launcher/MODLAUNCHER]: JVM identified as Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 21.0.12+7-LTS-205
+[13:59:09] [main/INFO] [cp.mo.mo.Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.12 by Oracle Corporation; OS Windows 11 arch amd64 version 10.0
+[13:59:10] [main/INFO] [ne.ne.fm.lo.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserverdev
+[13:59:10] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/C:/Users/dalmy/Documents/Codex/2026-09-19/github-plugin-github-openai-curated-remote/outputs/EYRAX-Apothic-Arsenal/work/gradle-home/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.2+mixin.0.8.7/2af2f021d8e02a0220dc27a7a72b4666d66d44ca/sponge-mixin-0.15.2+mixin.0.8.7.jar%2394!/ Service=ModLauncher Env=SERVER
+[13:59:11] [main/INFO] [ne.ne.fm.lo.mo.lo.JarInJarDependencyLocator/]: Found 15 dependencies adding them to mods collection
+[13:59:11] [main/INFO] [ne.ne.fm.lo.mo.ModDiscoverer/]: 
+     Mod List:
+		Name Version (Mod Id)
+
+		Apotheosis 8.8.0 (apotheosis)
+		Apothic Attributes 2.10.0 (apothic_attributes)
+		Architectury 13.0.11 (architectury)
+		Curios API 9.5.1+1.21.1 (curios)
+		EYRAX Apothic Arsenal 0.2.0 (eyrax_apothic_arsenal)
+		Fzzy Config 0.7.6+1.21+neoforge (fzzy_config)
+		Kotlin For Forge 5.12.0 (kotlinforforge)
+		Minecraft 1.21.1 (minecraft)
+		NeoForge 21.1.248 (neoforge)
+		Patchouli 1.21-87-NEOFORGE (patchouli)
+		Placebo 9.9.2 (placebo)
+		Simply Swords 1.70.2-1.21.1 (simplyswords)
+		Simply Tooltips 0.1.5 (simplytooltips)
+[13:59:12] [main/INFO] [mixin/]: Compatibility level set to JAVA_21
+[13:59:12] [main/INFO] [cp.mo.mo.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserverdev' with arguments [--gameDir, .]
+[13:59:12] [main/WARN] [mixin/]: Reference map 'curios.refmap.json' for curios.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[13:59:12] [main/WARN] [mixin/]: Reference map 'curios.refmap.json' for curios.mixins.json could not be read. If this is a development environment you can ignore this message
+[13:59:12] [main/WARN] [mixin/]: Reference map 'patchouli.refmap.json' for patchouli_xplat.mixins.json could not be read. If this is a development environment you can ignore this message
+[13:59:12] [main/WARN] [mixin/]: Reference map 'placebo.refmap.json' for placebo.mixins.json could not be read. If this is a development environment you can ignore this message
+[13:59:12] [main/WARN] [mixin/]: Reference map 'apothic_attributes.refmap.json' for apothic_attributes.mixins.json could not be read. If this is a development environment you can ignore this message
+[13:59:12] [main/WARN] [mixin/]: Reference map 'apotheosis.refmap.json' for apotheosis.mixins.json could not be read. If this is a development environment you can ignore this message
+[13:59:12] [main/WARN] [mixin/]: Error loading class: net/bettercombat/network/ServerNetwork (java.lang.ClassNotFoundException: net.bettercombat.network.ServerNetwork)
+[13:59:12] [main/WARN] [mixin/]: Error loading class: noobanidus/mods/lootr/common/api/data/DefaultLootFiller (java.lang.ClassNotFoundException: noobanidus.mods.lootr.common.api.data.DefaultLootFiller)
+[13:59:12] [main/WARN] [mixin/]: Error loading class: org/violetmoon/quark/content/tweaks/module/GoldToolsHaveFortuneModule (java.lang.ClassNotFoundException: org.violetmoon.quark.content.tweaks.module.GoldToolsHaveFortuneModule)
+[13:59:13] [main/WARN] [os.dr.wi.pe.PerfmonDisabled/]: Invalid registry value type detected for PerfOS counters. Should be REG_DWORD. Ignoring: HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\PerfOS\Performance\Disable Performance Counters.
+[13:59:14] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.3).
+[13:59:21] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[13:59:21] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[13:59:21] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[13:59:21] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[13:59:21] [main/WARN] [minecraft/Commands]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[13:59:21] [modloading-worker-0/INFO] [ne.ne.ne.co.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.248, for MC 1.21.1
+[13:59:21] [modloading-worker-0/INFO] [fzzy_config/]: Loaded config simplytooltips:config in 56ms
+[13:59:21] [modloading-worker-0/INFO] [fzzy_config/]: Loaded config simplyswords:general in 5ms
+[13:59:21] [modloading-worker-0/INFO] [simplytooltips/]: SimplyTooltips config loaded: simplytooltips:config
+[13:59:21] [modloading-worker-0/INFO] [fzzy_config/]: Loaded config simplyswords:gui in 1ms
+[13:59:21] [modloading-worker-0/WARN] [minecraft/Weight]: Found 0 weight, make sure this is intentional!
+[13:59:21] [modloading-worker-0/INFO] [fzzy_config/]: Loaded config simplyswords:gem_powers in 1ms
+[13:59:21] [modloading-worker-0/INFO] [fzzy_config/]: Loaded config simplyswords:status_effects in 1ms
+[13:59:21] [modloading-worker-0/INFO] [fzzy_config/]: Loaded config simplyswords:weapon_attributes in 7ms
+[13:59:21] [modloading-worker-0/INFO] [fzzy_config/]: Loaded config simplyswords:unique_effects in 2ms
+[13:59:21] [modloading-worker-0/INFO] [fzzy_config/]: Loaded config simplyswords:compatibility in 1ms
+[13:59:21] [modloading-worker-0/INFO] [th.ko.ne.te.KotlinForForge/]: Kotlin For Forge Enabled!
+C:\Users\dalmy\Documents\Codex\2026-09-19\github-plugin-github-openai-curated-remote\outputs\EYRAX-Apothic-Arsenal\work\gametest\config
+[13:59:21] [modloading-worker-0/INFO] [co.ey.ap.EyraxApothicArsenal/]: [EYRAX Apothic Arsenal] Simply Swords detected.
+[13:59:21] [modloading-worker-0/INFO] [co.ey.ap.EyraxApothicArsenal/]: [EYRAX Apothic Arsenal] Apotheosis detected.
+[13:59:22] [modloading-worker-0/INFO] [fzzy_config/]: Loaded config simplyswords:loot in 2ms
+[13:59:23] [main/ERROR] [minecraft/Settings]: Failed to load properties from file: server.properties
+java.nio.file.NoSuchFileException: server.properties
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85) ~[?:?] {}
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103) ~[?:?] {}
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108) ~[?:?] {}
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:234) ~[?:?] {}
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:379) ~[?:?] {}
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:431) ~[?:?] {}
+	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:420) ~[?:?] {}
+	at java.base/java.nio.file.Files.newInputStream(Files.java:159) ~[?:?] {}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.dedicated.Settings.loadFromFile(Settings.java:38) ~[neoforge-21.1.248.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.dedicated.DedicatedServerProperties.fromFile(DedicatedServerProperties.java:132) ~[neoforge-21.1.248.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.dedicated.DedicatedServerSettings.<init>(DedicatedServerSettings.java:12) ~[neoforge-21.1.248.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.Main.main(Main.java:125) ~[neoforge-21.1.248.jar%23125!/:?] {re:classloading}
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?] {}
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.43/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:136) ~[loader-4.0.43.jar%23102!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.43/net.neoforged.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:128) ~[loader-4.0.43.jar%23102!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.43/net.neoforged.fml.loading.targets.NeoForgeServerDevLaunchHandler.runService(NeoForgeServerDevLaunchHandler.java:23) ~[loader-4.0.43.jar%23102!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.43/net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:118) ~[loader-4.0.43.jar%23102!/:4.0] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-11.0.5.jar%2382!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-11.0.5.jar%2382!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-11.0.5.jar%2382!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.run(Launcher.java:103) [modlauncher-11.0.5.jar%2382!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.main(Launcher.java:74) [modlauncher-11.0.5.jar%2382!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-11.0.5.jar%2382!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-11.0.5.jar%2382!/:?] {}
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210) [bootstraplauncher-2.0.2.jar:?] {}
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:69) [bootstraplauncher-2.0.2.jar:?] {}
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?] {}
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?] {}
+	at net.neoforged.devlaunch.Main.main(Main.java:57) [DevLaunch-1.0.2.jar:?] {}
+[13:59:23] [main/INFO] [mojang/YggdrasilAuthenticationService]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[13:59:23] [main/WARN] [minecraft/VanillaPackResourcesBuilder]: Assets URL 'union:/C:/Users/dalmy/Documents/Codex/2026-09-19/github-plugin-github-openai-curated-remote/outputs/EYRAX-Apothic-Arsenal/build/moddev/artifacts/neoforge-21.1.248.jar%23125!/assets/.mcassetsroot' uses unexpected schema
+[13:59:23] [main/WARN] [minecraft/VanillaPackResourcesBuilder]: Assets URL 'union:/C:/Users/dalmy/Documents/Codex/2026-09-19/github-plugin-github-openai-curated-remote/outputs/EYRAX-Apothic-Arsenal/build/moddev/artifacts/neoforge-21.1.248.jar%23125!/data/.mcassetsroot' uses unexpected schema
+[13:59:23] [main/INFO] [ne.ne.ne.ga.GameTestHooks/]: Enabled Gametest Namespaces: [eyrax_apothic_arsenal]
+[13:59:24] [main/ERROR] [minecraft/RecipeManager]: Parsing error loading recipe simplyswords:mythicmetals_compat/adamantite/adamantite_twinblade
+com.google.gson.JsonParseException: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: simplyswords:mythicmetals_compat/adamantite/adamantite_twinblade; Map entry 'X' : Failed to parse either. First: Not a json array: {"item":"mythicmetals:adamantite_ingot"}; Second: No key tag in MapLike[{"item":"mythicmetals:adamantite_ingot"}]; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: mythicmetals:adamantite_ingot
+	at MC-BOOTSTRAP/datafixerupper@8.0.16/com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar%2379!/:?] {}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:60) ~[neoforge-21.1.248.jar%23125!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:36) ~[neoforge-21.1.248.jar%23125!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.packs.resources.SimplePreparableReloadListener.lambda$reload$1(SimplePreparableReloadListener.java:19) ~[neoforge-21.1.248.jar%23125!/:?] {re:classloading}
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?] {}
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?] {}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.packs.resources.SimpleReloadInstance.lambda$new$3(SimpleReloadInstance.java:86) ~[neoforge-21.1.248.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.Util.blockUntilDone(Util.java:872) ~[neoforge-21.1.248.jar%23125!/:?] {re:classloading,re:mixin}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.Util.blockUntilDone(Util.java:861) ~[neoforge-21.1.248.jar%23125!/:?] {re:classloading,re:mixin}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.gametest.framework.GameTestServer.create(GameTestServer.java:93) ~[neoforge-21.1.248.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.Main.lambda$main$0(Main.java:195) ~[neoforge-21.1.248.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.spin(MinecraftServer.java:273) ~[neoforge-21.1.248.jar%23125!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.Main.main(Main.java:195) ~[neoforge-21.1.248.jar%23125!/:?] {re:classloading}
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?] {}
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.43/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:136) ~[loader-4.0.43.jar%23102!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.43/net.neoforged.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:128) ~[loader-4.0.43.jar%23102!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.43/net.neoforged.fml.loading.targets.NeoForgeServerDevLaunchHandler.runService(NeoForgeServerDevLaunchHandler.java:23) ~[loader-4.0.43.jar%23102!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.43/net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:118) ~[loader-4.0.43.jar%23102!/:4.0] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-11.0.5.jar%2382!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-11.0.5.jar%2382!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-11.0.5.jar%2382!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.run(Launcher.java:103) [modlauncher-11.0.5.jar%2382!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.main(Launcher.java:74) [modlauncher-11.0.5.jar%2382!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-11.0.5.jar%2382!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-11.0.5.jar%2382!/:?] {}
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210) [bootstraplauncher-2.0.2.jar:?] {}
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:69) [bootstraplauncher-2.0.2.jar:?] {}
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?] {}
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?] {}
+	at net.neoforged.devlaunch.Main.main(Main.java:57) [DevLaunch-1.0.2.jar:?] {}
+[13:59:24] [main/ERROR] [minecraft/RecipeManager]: Parsing error loading recipe simplyswords:eldritch_end/dreadtide
+com.google.gson.JsonParseException: Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: simplyswords:dreadtide; Map entry '#' : Failed to parse either. First: Not a json array: {"item":"eldritch_end:aberration_heart"}; Second: No key tag in MapLike[{"item":"eldritch_end:aberration_heart"}]; Unknown registry key in ResourceKey[minecraft:root / minecraft:item]: eldritch_end:aberration_heart
+	at MC-BOOTSTRAP/datafixerupper@8.0.16/com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287) ~[datafixerupper-8.0.16.jar%2379!/:?] {}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:60) ~[neoforge-21.1.248.jar%23125!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.item.crafting.RecipeManager.apply(RecipeManager.java:36) ~[neoforge-21.1.248.jar%23125!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.packs.resources.SimplePreparableReloadListener.lambda$reload$1(SimplePreparableReloadListener.java:19) ~[neoforge-21.1.248.jar%23125!/:?] {re:classloading}
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?] {}
+	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?] {}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.packs.resources.SimpleReloadInstance.lambda$new$3(SimpleReloadInstance.java:86) ~[neoforge-21.1.248.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.Util.blockUntilDone(Util.java:872) ~[neoforge-21.1.248.jar%23125!/:?] {re:classloading,re:mixin}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.Util.blockUntilDone(Util.java:861) ~[neoforge-21.1.248.jar%23125!/:?] {re:classloading,re:mixin}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.gametest.framework.GameTestServer.create(GameTestServer.java:93) ~[neoforge-21.1.248.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.Main.lambda$main$0(Main.java:195) ~[neoforge-21.1.248.jar%23125!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.spin(MinecraftServer.java:273) ~[neoforge-21.1.248.jar%23125!/:?] {re:classloading,pl:accesstransformer:B}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.Main.main(Main.java:195) ~[neoforge-21.1.248.jar%23125!/:?] {re:classloading}
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?] {}
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.43/net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:136) ~[loader-4.0.43.jar%23102!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.43/net.neoforged.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:128) ~[loader-4.0.43.jar%23102!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.43/net.neoforged.fml.loading.targets.NeoForgeServerDevLaunchHandler.runService(NeoForgeServerDevLaunchHandler.java:23) ~[loader-4.0.43.jar%23102!/:4.0] {}
+	at MC-BOOTSTRAP/fml_loader@4.0.43/net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:118) ~[loader-4.0.43.jar%23102!/:4.0] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-11.0.5.jar%2382!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-11.0.5.jar%2382!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-11.0.5.jar%2382!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.run(Launcher.java:103) [modlauncher-11.0.5.jar%2382!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.Launcher.main(Launcher.java:74) [modlauncher-11.0.5.jar%2382!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-11.0.5.jar%2382!/:?] {}
+	at MC-BOOTSTRAP/cpw.mods.modlauncher@11.0.5/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-11.0.5.jar%2382!/:?] {}
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.run(BootstrapLauncher.java:210) [bootstraplauncher-2.0.2.jar:?] {}
+	at cpw.mods.bootstraplauncher@2.0.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:69) [bootstraplauncher-2.0.2.jar:?] {}
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?] {}
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?] {}
+	at net.neoforged.devlaunch.Main.main(Main.java:57) [DevLaunch-1.0.2.jar:?] {}
+[13:59:24] [main/INFO] [minecraft/RecipeManager]: Loaded 1478 recipes
+[13:59:24] [main/INFO] [minecraft/AdvancementTree]: Loaded 1463 advancements
+[13:59:24] [main/INFO] [Curios API/]: Loaded 10 curio slots
+[13:59:24] [main/INFO] [Curios API/]: Loaded 1 curio entities
+[13:59:24] [main/INFO] [placebo/]: Registered 27 gear_sets.
+[13:59:24] [main/WARN] [minecraft/Weight]: Found 0 weight, make sure this is intentional!
+[13:59:24] [main/WARN] [minecraft/Weight]: Found 0 weight, make sure this is intentional!
+[13:59:24] [main/INFO] [placebo/]: Registered 28 wanderer_trades.
+[13:59:24] [main/INFO] [placebo/]: Registered 37 brewing_mixes.
+[13:59:24] [main/INFO] [apotheosis/]: Registered 5 rarities.
+[13:59:24] [main/INFO] [apotheosis/]: Registered 1 rarity_override.
+[13:59:24] [main/INFO] [apotheosis/]: Registered 94 affixes.
+[13:59:24] [main/INFO] [apotheosis/]: Registered 0 extra_gem_bonuses.
+[13:59:24] [main/INFO] [apotheosis/]: Registered 20 gems.
+[13:59:24] [main/INFO] [apotheosis/]: Registered 50 affix_loot_entries.
+[13:59:24] [main/INFO] [apotheosis/]: Registered 23 apothic_invaders.
+[13:59:24] [main/INFO] [apotheosis/]: Registered 9 rogue_spawners.
+[13:59:24] [main/INFO] [apotheosis/]: Registered 4 apothic_elites.
+[13:59:24] [main/INFO] [apotheosis/]: Registered 1 purity_weights.
+[13:59:24] [main/INFO] [apotheosis/]: Registered 1 apothic_augments.
+[13:59:24] [main/INFO] [apotheosis/]: Registered 23 tier_augments.
+[13:59:25] [main/WARN] [co.ey.ap.EyraxApothicArsenal/]: [EYRAX Apothic Arsenal] Unclassified Simply Swords weapon: simplyswords:decaying_relic (family=UNKNOWN, tier=UNIQUE, conflictingTags=false)
+[13:59:25] [main/INFO] [co.ey.ap.EyraxApothicArsenal/]: [EYRAX Apothic Arsenal] Recognized 133 Simply Swords weapons.
+[13:59:25] [main/INFO] [co.ey.ap.EyraxApothicArsenal/]: [EYRAX Apothic Arsenal] Swift: 43
+[13:59:25] [main/INFO] [co.ey.ap.EyraxApothicArsenal/]: [EYRAX Apothic Arsenal] Heavy: 36
+[13:59:25] [main/INFO] [co.ey.ap.EyraxApothicArsenal/]: [EYRAX Apothic Arsenal] Polearm: 25
+[13:59:25] [main/INFO] [co.ey.ap.EyraxApothicArsenal/]: [EYRAX Apothic Arsenal] Special: 15
+[13:59:25] [main/INFO] [co.ey.ap.EyraxApothicArsenal/]: [EYRAX Apothic Arsenal] Unassigned group (including longsword): 14
+[13:59:25] [main/INFO] [co.ey.ap.EyraxApothicArsenal/]: [EYRAX Apothic Arsenal] Standard weapons: 61
+[13:59:25] [main/INFO] [co.ey.ap.EyraxApothicArsenal/]: [EYRAX Apothic Arsenal] Runic weapons: 15
+[13:59:25] [main/INFO] [co.ey.ap.EyraxApothicArsenal/]: [EYRAX Apothic Arsenal] Unique weapons: 57
+[13:59:25] [main/INFO] [co.ey.ap.EyraxApothicArsenal/]: [EYRAX Apothic Arsenal] Unknown tier: 0
+[13:59:25] [main/INFO] [co.ey.ap.EyraxApothicArsenal/]: [EYRAX Apothic Arsenal] Families: {RAPIER=7, CUTLASS=8, SAI=5, DAGGER=2, CLAYMORE=18, LONGSWORD=13, GREATHAMMER=8, HAMMER=2, KATANA=7, SPEAR=9, GLAIVE=8, HALBERD=8, WARGLAIVE=6, CHAKRAM=7, SCYTHE=8, GREATAXE=8, TWINBLADE=8, UNKNOWN=1}
+[13:59:25] [main/INFO] [co.ey.ap.EyraxApothicArsenal/]: [EYRAX Apothic Arsenal] Valid affix candidates: 133/133; native melee category: 133/133
+[13:59:25] [Server thread/INFO] [minecraft/MinecraftServer]: Preparing start region for dimension minecraft:overworld
+[13:59:25] [worldgen/INFO] [minecraft/LoggerChunkProgressListener]: Preparing spawn area: 2%
+[13:59:26] [Server thread/INFO] [minecraft/LoggerChunkProgressListener]: Time elapsed: 223 ms
+[13:59:26] [Server thread/INFO] [minecraft/GameTestServer]: Started game test server
+[13:59:26] [Server thread/INFO] [ne.ne.ne.se.pe.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[13:59:26] [Server thread/WARN] [co.ey.ap.EyraxApothicArsenal/]: [EYRAX Apothic Arsenal] Unclassified Simply Swords weapon: simplyswords:decaying_relic (family=UNKNOWN, tier=UNIQUE, conflictingTags=false)
+[13:59:26] [Server thread/INFO] [co.ey.ap.EyraxApothicArsenal/]: [EYRAX Apothic Arsenal] Recognized 133 Simply Swords weapons.
+[13:59:26] [Server thread/INFO] [co.ey.ap.EyraxApothicArsenal/]: [EYRAX Apothic Arsenal] Swift: 43
+[13:59:26] [Server thread/INFO] [co.ey.ap.EyraxApothicArsenal/]: [EYRAX Apothic Arsenal] Heavy: 36
+[13:59:26] [Server thread/INFO] [co.ey.ap.EyraxApothicArsenal/]: [EYRAX Apothic Arsenal] Polearm: 25
+[13:59:26] [Server thread/INFO] [co.ey.ap.EyraxApothicArsenal/]: [EYRAX Apothic Arsenal] Special: 15
+[13:59:26] [Server thread/INFO] [co.ey.ap.EyraxApothicArsenal/]: [EYRAX Apothic Arsenal] Unassigned group (including longsword): 14
+[13:59:26] [Server thread/INFO] [co.ey.ap.EyraxApothicArsenal/]: [EYRAX Apothic Arsenal] Standard weapons: 61
+[13:59:26] [Server thread/INFO] [co.ey.ap.EyraxApothicArsenal/]: [EYRAX Apothic Arsenal] Runic weapons: 15
+[13:59:26] [Server thread/INFO] [co.ey.ap.EyraxApothicArsenal/]: [EYRAX Apothic Arsenal] Unique weapons: 57
+[13:59:26] [Server thread/INFO] [co.ey.ap.EyraxApothicArsenal/]: [EYRAX Apothic Arsenal] Unknown tier: 0
+[13:59:26] [Server thread/INFO] [co.ey.ap.EyraxApothicArsenal/]: [EYRAX Apothic Arsenal] Families: {RAPIER=7, CUTLASS=8, SAI=5, DAGGER=2, CLAYMORE=18, LONGSWORD=13, GREATHAMMER=8, HAMMER=2, KATANA=7, SPEAR=9, GLAIVE=8, HALBERD=8, WARGLAIVE=6, CHAKRAM=7, SCYTHE=8, GREATAXE=8, TWINBLADE=8, UNKNOWN=1}
+[13:59:26] [Server thread/INFO] [co.ey.ap.EyraxApothicArsenal/]: [EYRAX Apothic Arsenal] Valid affix candidates: 133/133; native melee category: 133/133
+[13:59:26] [Server thread/INFO] [patchouli/]: Sending reload packet to clients
+[13:59:26] [Server thread/INFO] [minecraft/GameTestServer]: 2 tests are now running at position 13395410, -59, 13607774!
+[13:59:26] [Server thread/INFO] [minecraft/GameTestRunner]: Running test batch 'defaultBatch:0' (2 tests)...
+[13:59:26] [Server thread/INFO] [minecraft/GameTestServer]: [  ]
+[13:59:26] [Server thread/INFO] [minecraft/GameTestServer]: [  ]
+[13:59:26] [Server thread/INFO] [co.ey.ap.te.ArsenalGameTests/]: [Arsenal GameTest] Verified 133 weapon categories
+[13:59:27] [Server thread/INFO] [co.ey.ap.te.ArsenalGameTests/]: [Arsenal GameTest] Verified 13566 weapon/gem/purity smithing combinations
+[13:59:27] [Server thread/INFO] [minecraft/GameTestServer]: [++]
+[13:59:27] [Server thread/INFO] [minecraft/GameTestServer]: ========= 2 GAME TESTS COMPLETE IN 872.9 ms ======================
+[13:59:27] [Server thread/INFO] [minecraft/GameTestServer]: All 2 required tests passed :)
+[13:59:27] [Server thread/INFO] [minecraft/GameTestServer]: ====================================================
+[13:59:27] [Server thread/INFO] [minecraft/MinecraftServer]: Stopping server
+[13:59:27] [Server thread/INFO] [minecraft/MinecraftServer]: Saving players
+[13:59:27] [Server thread/INFO] [minecraft/MinecraftServer]: Saving worlds
+[13:59:28] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[Test Level]'/minecraft:overworld
+[13:59:28] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[Test Level]'/minecraft:the_nether
+[13:59:28] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[Test Level]'/minecraft:the_end
+[13:59:28] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[13:59:28] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[13:59:28] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[13:59:28] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage: All dimensions are saved
+[13:59:28] [Server thread/INFO] [minecraft/GameTestServer]: Game test server shutting down
+
+[Incubating] Problems report is available at: file:///C:/Users/dalmy/Documents/Codex/2026-09-19/github-plugin-github-openai-curated-remote/outputs/EYRAX-Apothic-Arsenal/build/reports/problems/problems-report.html
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/9.4.1/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 4m 1s
+9 actionable tasks: 7 executed, 2 up-to-date

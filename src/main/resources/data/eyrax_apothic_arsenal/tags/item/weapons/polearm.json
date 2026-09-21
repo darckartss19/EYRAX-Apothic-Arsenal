@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "#eyrax_apothic_arsenal:families/spear",
+    "#eyrax_apothic_arsenal:families/glaive",
+    "#eyrax_apothic_arsenal:families/halberd"
+  ]
+}

@@ -1,0 +1,45 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="eyrax_apothic_arsenal"
+version="${version}"
+displayName="EYRAX Apothic Arsenal"
+authors="EYRAX"
+description='''Independent Simply Swords compatibility for Apotheosis with socket diagnostics and server insertion policies.'''
+
+[[dependencies.eyrax_apothic_arsenal]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1,1.21.2)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.eyrax_apothic_arsenal]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.248,21.2)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.eyrax_apothic_arsenal]]
+modId="apotheosis"
+type="required"
+versionRange="[8.8.0,8.9.0)"
+ordering="AFTER"
+side="BOTH"
+
+[[dependencies.eyrax_apothic_arsenal]]
+modId="apothic_attributes"
+type="required"
+versionRange="[2.10.0,3)"
+ordering="AFTER"
+side="BOTH"
+
+[[dependencies.eyrax_apothic_arsenal]]
+modId="simplyswords"
+type="required"
+versionRange="[1.70.2-1.21.1,1.71)"
+ordering="AFTER"
+side="BOTH"

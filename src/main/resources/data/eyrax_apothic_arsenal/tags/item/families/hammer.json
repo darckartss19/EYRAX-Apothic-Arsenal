@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#simplyswords:implicit/hammer",
+      "required": false
+    },
+    {
+      "id": "simplyswords:frostfall",
+      "required": false
+    },
+    {
+      "id": "simplyswords:mjolnir",
+      "required": false
+    }
+  ]
+}

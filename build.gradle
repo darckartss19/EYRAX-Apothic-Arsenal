@@ -1,0 +1,79 @@
+plugins {
+    id 'java-library'
+    id 'net.neoforged.moddev' version '2.0.141'
+}
+
+group = 'com.eyrax.apothicarsenal'
+version = '0.3.0'
+base { archivesName = 'EYRAX-Apothic-Arsenal' }
+java { toolchain.languageVersion = JavaLanguageVersion.of(21); withSourcesJar() }
+
+sourceSets { gameTest }
+configurations {
+    gameTestImplementation.extendsFrom implementation
+    gameTestRuntimeOnly.extendsFrom runtimeOnly
+}
+sourceSets.gameTest.compileClasspath += sourceSets.main.output
+sourceSets.gameTest.runtimeClasspath += sourceSets.main.output
+
+neoForge {
+    version = '21.1.248'
+    addModdingDependenciesTo sourceSets.gameTest
+    mods { eyrax_apothic_arsenal { sourceSet sourceSets.main; sourceSet sourceSets.gameTest } }
+    runs {
+        client { client() }
+        clientTooltipProbe {
+            client()
+            sourceSet = sourceSets.gameTest
+            gameDirectory = file('work/tooltip-client')
+            systemProperty 'eyrax.tooltipProbe', 'true'
+            programArguments.addAll('--width', '1280', '--height', '720')
+        }
+        server { server(); programArgument '--nogui' }
+        gameTestServer {
+            type = 'gameTestServer'
+            sourceSet = sourceSets.gameTest
+            gameDirectory = file('work/gametest')
+            systemProperty 'neoforge.enabledGameTestNamespaces', 'eyrax_apothic_arsenal'
+        }
+    }
+}
+
+repositories {
+    maven { url = 'https://maven.shadowsoffire.dev/releases' }
+    maven { url = 'https://maven.theillusivec4.top' }
+    maven { url = 'https://maven.blamejared.com' }
+    maven { url = 'https://maven.architectury.dev' }
+    maven { url = 'https://api.modrinth.com/maven'; content { includeGroup 'maven.modrinth' } }
+    mavenCentral()
+}
+
+dependencies {
+    gameTestImplementation 'maven.modrinth:simply-swords:nS0Yahr5'
+    gameTestImplementation 'dev.architectury:architectury-neoforge:13.0.11'
+    gameTestImplementation 'maven.modrinth:simply-tooltips:Zb6dytvm'
+    implementation 'dev.shadowsoffire:Placebo:1.21.1-9.9.2'
+    implementation 'dev.shadowsoffire:ApothicAttributes:1.21.1-2.10.0'
+    implementation 'dev.shadowsoffire:Apotheosis:1.21.1-8.8.0'
+    // Tags are the read-only compatibility surface; no dependency on weapon implementation classes.
+    runtimeOnly 'maven.modrinth:simply-swords:nS0Yahr5'
+    runtimeOnly 'dev.architectury:architectury-neoforge:13.0.11'
+    runtimeOnly 'maven.modrinth:fzzy-config:MAPG6cXE'
+    runtimeOnly 'maven.modrinth:kotlin-for-forge:uhJhCT7X'
+    runtimeOnly 'maven.modrinth:simply-tooltips:Zb6dytvm'
+    runtimeOnly 'vazkii.patchouli:Patchouli:1.21-87-NEOFORGE'
+    testImplementation platform('org.junit:junit-bom:5.11.4')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+    testImplementation 'com.google.code.gson:gson:2.10.1'
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
+}
+
+tasks.withType(JavaCompile).configureEach { options.encoding = 'UTF-8' }
+tasks.named('test') { useJUnitPlatform() }
+tasks.named('processResources') {
+    inputs.property 'version', project.version
+    filesMatching('META-INF/neoforge.mods.toml') { expand version: project.version }
+}
+tasks.named('jar') {
+    manifest { attributes 'Implementation-Version': project.version, 'Implementation-Vendor': 'EYRAX' }
+}

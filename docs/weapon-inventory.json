@@ -1,0 +1,980 @@
+{
+  "simplyswords_sha512": "9a231c0068318e7f62e3d5dfd81660b3f8efdcae9bcf83cfc3637c897fed29aac1941ef8007e8b29f0badfdce0c8047cfb73cd1ea486f25c69197384adfc8dcd",
+  "weapons": 134,
+  "base_registry_references": 133,
+  "optional_unregistered_references": [
+    "simplyswords:dreadtide"
+  ],
+  "families": {
+    "halberd": 8,
+    "claymore": 18,
+    "cutlass": 8,
+    "rapier": 7,
+    "chakram": 7,
+    "unknown": 1,
+    "glaive": 8,
+    "greataxe": 8,
+    "greathammer": 8,
+    "katana": 7,
+    "longsword": 13,
+    "sai": 5,
+    "scythe": 8,
+    "spear": 9,
+    "twinblade": 9,
+    "warglaive": 6,
+    "dagger": 2,
+    "hammer": 2
+  },
+  "groups": {
+    "polearm": 25,
+    "heavy": 36,
+    "swift": 44,
+    "special": 15,
+    "unassigned": 14
+  },
+  "tiers": {
+    "unique": 58,
+    "standard": 61,
+    "runic": 15
+  },
+  "items": [
+    {
+      "item": "simplyswords:arcanethyst",
+      "family": "halberd",
+      "group": "polearm",
+      "tier": "unique",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:awakened_lichblade",
+      "family": "claymore",
+      "group": "heavy",
+      "tier": "unique",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:bloodwake",
+      "family": "cutlass",
+      "group": "swift",
+      "tier": "unique",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:bramblethorn",
+      "family": "rapier",
+      "group": "swift",
+      "tier": "unique",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:brimstone_claymore",
+      "family": "claymore",
+      "group": "heavy",
+      "tier": "unique",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:caelestis",
+      "family": "claymore",
+      "group": "heavy",
+      "tier": "unique",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:chompolotl",
+      "family": "chakram",
+      "group": "special",
+      "tier": "unique",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:dawnquiver",
+      "family": "claymore",
+      "group": "heavy",
+      "tier": "unique",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:decaying_relic",
+      "family": "unknown",
+      "group": "unassigned",
+      "tier": "unique",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:diamond_chakram",
+      "family": "chakram",
+      "group": "special",
+      "tier": "standard",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:diamond_claymore",
+      "family": "claymore",
+      "group": "heavy",
+      "tier": "standard",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:diamond_cutlass",
+      "family": "cutlass",
+      "group": "swift",
+      "tier": "standard",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:diamond_glaive",
+      "family": "glaive",
+      "group": "polearm",
+      "tier": "standard",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:diamond_greataxe",
+      "family": "greataxe",
+      "group": "heavy",
+      "tier": "standard",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:diamond_greathammer",
+      "family": "greathammer",
+      "group": "heavy",
+      "tier": "standard",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:diamond_halberd",
+      "family": "halberd",
+      "group": "polearm",
+      "tier": "standard",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:diamond_katana",
+      "family": "katana",
+      "group": "swift",
+      "tier": "standard",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:diamond_longsword",
+      "family": "longsword",
+      "group": "unassigned",
+      "tier": "standard",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:diamond_rapier",
+      "family": "rapier",
+      "group": "swift",
+      "tier": "standard",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:diamond_sai",
+      "family": "sai",
+      "group": "swift",
+      "tier": "standard",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:diamond_scythe",
+      "family": "scythe",
+      "group": "special",
+      "tier": "standard",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:diamond_spear",
+      "family": "spear",
+      "group": "polearm",
+      "tier": "standard",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:diamond_twinblade",
+      "family": "twinblade",
+      "group": "swift",
+      "tier": "standard",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:diamond_warglaive",
+      "family": "warglaive",
+      "group": "swift",
+      "tier": "standard",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:dormant_relic",
+      "family": "longsword",
+      "group": "unassigned",
+      "tier": "unique",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:dreadtide",
+      "family": "twinblade",
+      "group": "swift",
+      "tier": "unique",
+      "base_registry_reference": false
+    },
+    {
+      "item": "simplyswords:dreadwhisper",
+      "family": "katana",
+      "group": "swift",
+      "tier": "unique",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:emberblade",
+      "family": "longsword",
+      "group": "unassigned",
+      "tier": "unique",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:emberlash",
+      "family": "dagger",
+      "group": "swift",
+      "tier": "unique",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:enigma",
+      "family": "claymore",
+      "group": "heavy",
+      "tier": "unique",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:flamewind",
+      "family": "glaive",
+      "group": "polearm",
+      "tier": "unique",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:frostfall",
+      "family": "hammer",
+      "group": "heavy",
+      "tier": "unique",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:gloampiercer",
+      "family": "spear",
+      "group": "polearm",
+      "tier": "unique",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:gold_chakram",
+      "family": "chakram",
+      "group": "special",
+      "tier": "standard",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:gold_claymore",
+      "family": "claymore",
+      "group": "heavy",
+      "tier": "standard",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:gold_cutlass",
+      "family": "cutlass",
+      "group": "swift",
+      "tier": "standard",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:gold_glaive",
+      "family": "glaive",
+      "group": "polearm",
+      "tier": "standard",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:gold_greataxe",
+      "family": "greataxe",
+      "group": "heavy",
+      "tier": "standard",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:gold_greathammer",
+      "family": "greathammer",
+      "group": "heavy",
+      "tier": "standard",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:gold_halberd",
+      "family": "halberd",
+      "group": "polearm",
+      "tier": "standard",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:gold_katana",
+      "family": "katana",
+      "group": "swift",
+      "tier": "standard",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:gold_longsword",
+      "family": "longsword",
+      "group": "unassigned",
+      "tier": "standard",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:gold_rapier",
+      "family": "rapier",
+      "group": "swift",
+      "tier": "standard",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:gold_sai",
+      "family": "sai",
+      "group": "swift",
+      "tier": "standard",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:gold_scythe",
+      "family": "scythe",
+      "group": "special",
+      "tier": "standard",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:gold_spear",
+      "family": "spear",
+      "group": "polearm",
+      "tier": "standard",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:gold_twinblade",
+      "family": "twinblade",
+      "group": "swift",
+      "tier": "standard",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:gold_warglaive",
+      "family": "warglaive",
+      "group": "swift",
+      "tier": "standard",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:harbinger",
+      "family": "longsword",
+      "group": "unassigned",
+      "tier": "unique",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:hearthflame",
+      "family": "greathammer",
+      "group": "heavy",
+      "tier": "unique",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:hiveheart",
+      "family": "greathammer",
+      "group": "heavy",
+      "tier": "unique",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:icewhisper",
+      "family": "halberd",
+      "group": "polearm",
+      "tier": "unique",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:ionbound_stormscale",
+      "family": "glaive",
+      "group": "polearm",
+      "tier": "unique",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:iron_chakram",
+      "family": "chakram",
+      "group": "special",
+      "tier": "standard",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:iron_claymore",
+      "family": "claymore",
+      "group": "heavy",
+      "tier": "standard",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:iron_cutlass",
+      "family": "cutlass",
+      "group": "swift",
+      "tier": "standard",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:iron_glaive",
+      "family": "glaive",
+      "group": "polearm",
+      "tier": "standard",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:iron_greataxe",
+      "family": "greataxe",
+      "group": "heavy",
+      "tier": "standard",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:iron_greathammer",
+      "family": "greathammer",
+      "group": "heavy",
+      "tier": "standard",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:iron_halberd",
+      "family": "halberd",
+      "group": "polearm",
+      "tier": "standard",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:iron_katana",
+      "family": "katana",
+      "group": "swift",
+      "tier": "standard",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:iron_longsword",
+      "family": "longsword",
+      "group": "unassigned",
+      "tier": "standard",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:iron_rapier",
+      "family": "rapier",
+      "group": "swift",
+      "tier": "standard",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:iron_sai",
+      "family": "sai",
+      "group": "swift",
+      "tier": "standard",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:iron_scythe",
+      "family": "scythe",
+      "group": "special",
+      "tier": "standard",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:iron_spear",
+      "family": "spear",
+      "group": "polearm",
+      "tier": "standard",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:iron_twinblade",
+      "family": "twinblade",
+      "group": "swift",
+      "tier": "standard",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:iron_warglaive",
+      "family": "warglaive",
+      "group": "swift",
+      "tier": "standard",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:livyatan",
+      "family": "greataxe",
+      "group": "heavy",
+      "tier": "unique",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:magiblade",
+      "family": "twinblade",
+      "group": "swift",
+      "tier": "unique",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:magiscythe",
+      "family": "scythe",
+      "group": "special",
+      "tier": "unique",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:magispear",
+      "family": "spear",
+      "group": "polearm",
+      "tier": "unique",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:mjolnir",
+      "family": "hammer",
+      "group": "heavy",
+      "tier": "unique",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:molten_edge",
+      "family": "greataxe",
+      "group": "heavy",
+      "tier": "unique",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:netherite_chakram",
+      "family": "chakram",
+      "group": "special",
+      "tier": "standard",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:netherite_claymore",
+      "family": "claymore",
+      "group": "heavy",
+      "tier": "standard",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:netherite_cutlass",
+      "family": "cutlass",
+      "group": "swift",
+      "tier": "standard",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:netherite_glaive",
+      "family": "glaive",
+      "group": "polearm",
+      "tier": "standard",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:netherite_greataxe",
+      "family": "greataxe",
+      "group": "heavy",
+      "tier": "standard",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:netherite_greathammer",
+      "family": "greathammer",
+      "group": "heavy",
+      "tier": "standard",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:netherite_halberd",
+      "family": "halberd",
+      "group": "polearm",
+      "tier": "standard",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:netherite_katana",
+      "family": "katana",
+      "group": "swift",
+      "tier": "standard",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:netherite_longsword",
+      "family": "longsword",
+      "group": "unassigned",
+      "tier": "standard",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:netherite_rapier",
+      "family": "rapier",
+      "group": "swift",
+      "tier": "standard",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:netherite_sai",
+      "family": "sai",
+      "group": "swift",
+      "tier": "standard",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:netherite_scythe",
+      "family": "scythe",
+      "group": "special",
+      "tier": "standard",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:netherite_spear",
+      "family": "spear",
+      "group": "polearm",
+      "tier": "standard",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:netherite_twinblade",
+      "family": "twinblade",
+      "group": "swift",
+      "tier": "standard",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:netherite_warglaive",
+      "family": "warglaive",
+      "group": "swift",
+      "tier": "standard",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:ribboncleaver",
+      "family": "claymore",
+      "group": "heavy",
+      "tier": "unique",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:riftmane",
+      "family": "claymore",
+      "group": "heavy",
+      "tier": "unique",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:righteous_relic",
+      "family": "longsword",
+      "group": "unassigned",
+      "tier": "unique",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:runic_chakram",
+      "family": "chakram",
+      "group": "special",
+      "tier": "runic",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:runic_claymore",
+      "family": "claymore",
+      "group": "heavy",
+      "tier": "runic",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:runic_cutlass",
+      "family": "cutlass",
+      "group": "swift",
+      "tier": "runic",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:runic_glaive",
+      "family": "glaive",
+      "group": "polearm",
+      "tier": "runic",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:runic_greataxe",
+      "family": "greataxe",
+      "group": "heavy",
+      "tier": "runic",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:runic_greathammer",
+      "family": "greathammer",
+      "group": "heavy",
+      "tier": "runic",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:runic_halberd",
+      "family": "halberd",
+      "group": "polearm",
+      "tier": "runic",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:runic_katana",
+      "family": "katana",
+      "group": "swift",
+      "tier": "runic",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:runic_longsword",
+      "family": "longsword",
+      "group": "unassigned",
+      "tier": "runic",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:runic_rapier",
+      "family": "rapier",
+      "group": "swift",
+      "tier": "runic",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:runic_sai",
+      "family": "sai",
+      "group": "swift",
+      "tier": "runic",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:runic_scythe",
+      "family": "scythe",
+      "group": "special",
+      "tier": "runic",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:runic_spear",
+      "family": "spear",
+      "group": "polearm",
+      "tier": "runic",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:runic_twinblade",
+      "family": "twinblade",
+      "group": "swift",
+      "tier": "runic",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:runic_warglaive",
+      "family": "warglaive",
+      "group": "swift",
+      "tier": "runic",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:shadowsting",
+      "family": "rapier",
+      "group": "swift",
+      "tier": "unique",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:slumbering_lichblade",
+      "family": "claymore",
+      "group": "heavy",
+      "tier": "unique",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:soulkeeper",
+      "family": "greathammer",
+      "group": "heavy",
+      "tier": "unique",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:soulpyre",
+      "family": "greataxe",
+      "group": "heavy",
+      "tier": "unique",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:soulrender",
+      "family": "scythe",
+      "group": "special",
+      "tier": "unique",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:soulstalker",
+      "family": "scythe",
+      "group": "special",
+      "tier": "unique",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:soulstealer",
+      "family": "dagger",
+      "group": "swift",
+      "tier": "unique",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:stars_edge",
+      "family": "twinblade",
+      "group": "swift",
+      "tier": "unique",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:stormbringer",
+      "family": "longsword",
+      "group": "unassigned",
+      "tier": "unique",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:storms_edge",
+      "family": "twinblade",
+      "group": "swift",
+      "tier": "unique",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:stormscale",
+      "family": "glaive",
+      "group": "polearm",
+      "tier": "unique",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:sunfire",
+      "family": "longsword",
+      "group": "unassigned",
+      "tier": "unique",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:sword_on_a_stick",
+      "family": "spear",
+      "group": "polearm",
+      "tier": "standard",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:tainted_relic",
+      "family": "longsword",
+      "group": "unassigned",
+      "tier": "unique",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:tempest",
+      "family": "chakram",
+      "group": "special",
+      "tier": "unique",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:the_devourer",
+      "family": "claymore",
+      "group": "heavy",
+      "tier": "unique",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:thunderbrand",
+      "family": "halberd",
+      "group": "polearm",
+      "tier": "unique",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:toxic_longsword",
+      "family": "longsword",
+      "group": "unassigned",
+      "tier": "unique",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:twisted_blade",
+      "family": "claymore",
+      "group": "heavy",
+      "tier": "unique",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:waking_lichblade",
+      "family": "claymore",
+      "group": "heavy",
+      "tier": "unique",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:watcher_claymore",
+      "family": "claymore",
+      "group": "heavy",
+      "tier": "unique",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:watching_warglaive",
+      "family": "warglaive",
+      "group": "swift",
+      "tier": "unique",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:waxweaver",
+      "family": "claymore",
+      "group": "heavy",
+      "tier": "unique",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:whisperwind",
+      "family": "katana",
+      "group": "swift",
+      "tier": "unique",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:wickpiercer",
+      "family": "spear",
+      "group": "polearm",
+      "tier": "unique",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:wraithfang",
+      "family": "cutlass",
+      "group": "swift",
+      "tier": "unique",
+      "base_registry_reference": true
+    },
+    {
+      "item": "simplyswords:wraithmaw",
+      "family": "cutlass",
+      "group": "swift",
+      "tier": "unique",
+      "base_registry_reference": true
+    }
+  ]
+}

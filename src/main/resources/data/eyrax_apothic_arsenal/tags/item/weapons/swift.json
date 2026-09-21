@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "#eyrax_apothic_arsenal:families/rapier",
+    "#eyrax_apothic_arsenal:families/sai",
+    "#eyrax_apothic_arsenal:families/dagger",
+    "#eyrax_apothic_arsenal:families/katana",
+    "#eyrax_apothic_arsenal:families/twinblade",
+    "#eyrax_apothic_arsenal:families/warglaive",
+    "#eyrax_apothic_arsenal:families/cutlass"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#eyrax_apothic_arsenal:families/claymore",
+    "#eyrax_apothic_arsenal:families/greataxe",
+    "#eyrax_apothic_arsenal:families/greathammer",
+    "#eyrax_apothic_arsenal:families/hammer"
+  ]
+}

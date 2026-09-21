@@ -1,0 +1,183 @@
+{
+  "namespaces": {
+    "simplyswords": {
+      "enabled": false
+    }
+  },
+  "items": {
+    "simplyswords:watcher_claymore": {
+      "enabled": true
+    },
+    "simplyswords:the_devourer": {
+      "enabled": true
+    },
+    "simplyswords:brimstone_claymore": {
+      "enabled": true
+    },
+    "simplyswords:storms_edge": {
+      "enabled": true
+    },
+    "simplyswords:stormscale": {
+      "enabled": true
+    },
+    "simplyswords:ionbound_stormscale": {
+      "enabled": true
+    },
+    "simplyswords:stormbringer": {
+      "enabled": true
+    },
+    "simplyswords:bramblethorn": {
+      "enabled": true
+    },
+    "simplyswords:watching_warglaive": {
+      "enabled": true
+    },
+    "simplyswords:toxic_longsword": {
+      "enabled": true
+    },
+    "simplyswords:emberblade": {
+      "enabled": true
+    },
+    "simplyswords:frostfall": {
+      "enabled": true
+    },
+    "simplyswords:soulpyre": {
+      "enabled": true
+    },
+    "simplyswords:molten_edge": {
+      "enabled": true
+    },
+    "simplyswords:livyatan": {
+      "enabled": true
+    },
+    "simplyswords:icewhisper": {
+      "enabled": true
+    },
+    "simplyswords:arcanethyst": {
+      "enabled": true
+    },
+    "simplyswords:thunderbrand": {
+      "enabled": true
+    },
+    "simplyswords:hearthflame": {
+      "enabled": true
+    },
+    "simplyswords:twisted_blade": {
+      "enabled": true
+    },
+    "simplyswords:soulrender": {
+      "enabled": true
+    },
+    "simplyswords:soulstalker": {
+      "enabled": true
+    },
+    "simplyswords:soulkeeper": {
+      "enabled": true
+    },
+    "simplyswords:soulstealer": {
+      "enabled": true
+    },
+    "simplyswords:mjolnir": {
+      "enabled": true
+    },
+    "simplyswords:slumbering_lichblade": {
+      "enabled": true
+    },
+    "simplyswords:waking_lichblade": {
+      "enabled": true
+    },
+    "simplyswords:awakened_lichblade": {
+      "enabled": true
+    },
+    "simplyswords:shadowsting": {
+      "enabled": true
+    },
+    "simplyswords:dormant_relic": {
+      "enabled": true
+    },
+    "simplyswords:tainted_relic": {
+      "enabled": true
+    },
+    "simplyswords:righteous_relic": {
+      "enabled": true
+    },
+    "simplyswords:sunfire": {
+      "enabled": true
+    },
+    "simplyswords:harbinger": {
+      "enabled": true
+    },
+    "simplyswords:whisperwind": {
+      "enabled": true
+    },
+    "simplyswords:dreadwhisper": {
+      "enabled": true
+    },
+    "simplyswords:emberlash": {
+      "enabled": true
+    },
+    "simplyswords:waxweaver": {
+      "enabled": true
+    },
+    "simplyswords:hiveheart": {
+      "enabled": true
+    },
+    "simplyswords:stars_edge": {
+      "enabled": true
+    },
+    "simplyswords:wickpiercer": {
+      "enabled": true
+    },
+    "simplyswords:gloampiercer": {
+      "enabled": true
+    },
+    "simplyswords:tempest": {
+      "enabled": true
+    },
+    "simplyswords:flamewind": {
+      "enabled": true
+    },
+    "simplyswords:ribboncleaver": {
+      "enabled": true
+    },
+    "simplyswords:riftmane": {
+      "enabled": true
+    },
+    "simplyswords:dawnquiver": {
+      "enabled": true
+    },
+    "simplyswords:decaying_relic": {
+      "enabled": true
+    },
+    "simplyswords:magiscythe": {
+      "enabled": true
+    },
+    "simplyswords:magiblade": {
+      "enabled": true
+    },
+    "simplyswords:magispear": {
+      "enabled": true
+    },
+    "simplyswords:enigma": {
+      "enabled": true
+    },
+    "simplyswords:caelestis": {
+      "enabled": true
+    },
+    "simplyswords:wraithfang": {
+      "enabled": true
+    },
+    "simplyswords:wraithmaw": {
+      "enabled": true
+    },
+    "simplyswords:bloodwake": {
+      "enabled": true
+    },
+    "simplyswords:chompolotl": {
+      "enabled": true
+    },
+    "simplyswords:dreadtide": {
+      "enabled": true
+    }
+  }
+}

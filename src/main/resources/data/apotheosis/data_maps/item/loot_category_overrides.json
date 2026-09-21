@@ -1,0 +1,6 @@
+{
+  "replace": false,
+  "values": {
+    "#eyrax_apothic_arsenal:weapons/integrated": "apotheosis:melee_weapon"
+  }
+}

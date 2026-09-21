@@ -1,0 +1,138 @@
+{
+  "artifact": "C:\\Users\\dalmy\\Documents\\Codex\\2026-09-19\\github-plugin-github-openai-curated-remote\\outputs\\EYRAX-Apothic-Arsenal\\build\\libs\\EYRAX-Apothic-Arsenal-0.2.0.jar",
+  "bytes": 37858,
+  "sha256": "51b5a8abb9a49d8bdca7bf88771eb2619e4eadff3bf4a8ea64134dfe0ff3b1f2",
+  "class_count": 17,
+  "class_major_versions": [
+    65
+  ],
+  "item_tags": 27,
+  "embedded_third_party_jars": 0,
+  "mod_metadata": {
+    "modLoader": "javafml",
+    "loaderVersion": "[4,)",
+    "license": "All Rights Reserved",
+    "mods": [
+      {
+        "modId": "eyrax_apothic_arsenal",
+        "version": "0.2.0",
+        "displayName": "EYRAX Apothic Arsenal",
+        "authors": "EYRAX",
+        "description": "Independent Simply Swords compatibility for Apotheosis with socket diagnostics and server insertion policies."
+      }
+    ],
+    "dependencies": {
+      "eyrax_apothic_arsenal": [
+        {
+          "modId": "minecraft",
+          "type": "required",
+          "versionRange": "[1.21.1,1.21.2)",
+          "ordering": "NONE",
+          "side": "BOTH"
+        },
+        {
+          "modId": "neoforge",
+          "type": "required",
+          "versionRange": "[21.1.248,21.2)",
+          "ordering": "NONE",
+          "side": "BOTH"
+        },
+        {
+          "modId": "apotheosis",
+          "type": "required",
+          "versionRange": "[8.8.0,8.9.0)",
+          "ordering": "AFTER",
+          "side": "BOTH"
+        },
+        {
+          "modId": "apothic_attributes",
+          "type": "required",
+          "versionRange": "[2.10.0,3)",
+          "ordering": "AFTER",
+          "side": "BOTH"
+        },
+        {
+          "modId": "simplyswords",
+          "type": "required",
+          "versionRange": "[1.70.2-1.21.1,1.71)",
+          "ordering": "AFTER",
+          "side": "BOTH"
+        }
+      ]
+    }
+  },
+  "unit_tests_passed": 6,
+  "gametests_passed": 4,
+  "minecraft_runtime_tested": "NeoForge GameTest dedicated server; no client GUI or user modpack",
+  "smithing_combinations": 13566,
+  "reforge_salvage_cases": 20,
+  "component_round_trips": 4,
+  "entries": [
+    "META-INF/",
+    "META-INF/MANIFEST.MF",
+    "com/",
+    "com/eyrax/",
+    "com/eyrax/apothicarsenal/",
+    "com/eyrax/apothicarsenal/EyraxApothicArsenal.class",
+    "com/eyrax/apothicarsenal/command/",
+    "com/eyrax/apothicarsenal/command/ArsenalCommands$1.class",
+    "com/eyrax/apothicarsenal/command/ArsenalCommands.class",
+    "com/eyrax/apothicarsenal/compat/",
+    "com/eyrax/apothicarsenal/compat/ApotheosisCompat.class",
+    "com/eyrax/apothicarsenal/compat/SimplySwordsCompat.class",
+    "com/eyrax/apothicarsenal/compat/SocketingDiagnosis$Result.class",
+    "com/eyrax/apothicarsenal/compat/SocketingDiagnosis.class",
+    "com/eyrax/apothicarsenal/compat/SocketingPolicy.class",
+    "com/eyrax/apothicarsenal/config/",
+    "com/eyrax/apothicarsenal/config/ArsenalConfig$1.class",
+    "com/eyrax/apothicarsenal/config/ArsenalConfig.class",
+    "com/eyrax/apothicarsenal/registry/",
+    "com/eyrax/apothicarsenal/registry/EyraxLootCategories.class",
+    "com/eyrax/apothicarsenal/registry/EyraxTags.class",
+    "com/eyrax/apothicarsenal/weapon/",
+    "com/eyrax/apothicarsenal/weapon/WeaponClassifier.class",
+    "com/eyrax/apothicarsenal/weapon/WeaponFamily.class",
+    "com/eyrax/apothicarsenal/weapon/WeaponGroup.class",
+    "com/eyrax/apothicarsenal/weapon/WeaponProfile.class",
+    "com/eyrax/apothicarsenal/weapon/WeaponTier.class",
+    "pack.mcmeta",
+    "META-INF/neoforge.mods.toml",
+    "data/",
+    "data/apotheosis/",
+    "data/apotheosis/data_maps/",
+    "data/apotheosis/data_maps/item/",
+    "data/apotheosis/data_maps/item/loot_category_overrides.json",
+    "data/eyrax_apothic_arsenal/",
+    "data/eyrax_apothic_arsenal/tags/",
+    "data/eyrax_apothic_arsenal/tags/item/",
+    "data/eyrax_apothic_arsenal/tags/item/families/",
+    "data/eyrax_apothic_arsenal/tags/item/families/chakram.json",
+    "data/eyrax_apothic_arsenal/tags/item/families/claymore.json",
+    "data/eyrax_apothic_arsenal/tags/item/families/cutlass.json",
+    "data/eyrax_apothic_arsenal/tags/item/families/dagger.json",
+    "data/eyrax_apothic_arsenal/tags/item/families/glaive.json",
+    "data/eyrax_apothic_arsenal/tags/item/families/greataxe.json",
+    "data/eyrax_apothic_arsenal/tags/item/families/greathammer.json",
+    "data/eyrax_apothic_arsenal/tags/item/families/halberd.json",
+    "data/eyrax_apothic_arsenal/tags/item/families/hammer.json",
+    "data/eyrax_apothic_arsenal/tags/item/families/katana.json",
+    "data/eyrax_apothic_arsenal/tags/item/families/longsword.json",
+    "data/eyrax_apothic_arsenal/tags/item/families/rapier.json",
+    "data/eyrax_apothic_arsenal/tags/item/families/sai.json",
+    "data/eyrax_apothic_arsenal/tags/item/families/scythe.json",
+    "data/eyrax_apothic_arsenal/tags/item/families/spear.json",
+    "data/eyrax_apothic_arsenal/tags/item/families/twinblade.json",
+    "data/eyrax_apothic_arsenal/tags/item/families/warglaive.json",
+    "data/eyrax_apothic_arsenal/tags/item/weapons/",
+    "data/eyrax_apothic_arsenal/tags/item/weapons/all.json",
+    "data/eyrax_apothic_arsenal/tags/item/weapons/heavy.json",
+    "data/eyrax_apothic_arsenal/tags/item/weapons/integrated.json",
+    "data/eyrax_apothic_arsenal/tags/item/weapons/polearm.json",
+    "data/eyrax_apothic_arsenal/tags/item/weapons/runic.json",
+    "data/eyrax_apothic_arsenal/tags/item/weapons/socketing_blocked.json",
+    "data/eyrax_apothic_arsenal/tags/item/weapons/special.json",
+    "data/eyrax_apothic_arsenal/tags/item/weapons/standard.json",
+    "data/eyrax_apothic_arsenal/tags/item/weapons/swift.json",
+    "data/eyrax_apothic_arsenal/tags/item/weapons/unique.json"
+  ]
+}
